@@ -1,11 +1,3 @@
-class Teste {
+import { soma } from './funcoes';
 
-    metodo() {
-
-    }
-
-    outroMetodo() {
-        
-    }
-
-}
+console.log(soma(1,2));

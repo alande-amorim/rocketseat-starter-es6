@@ -1,25 +1,7 @@
-Rocketseat - Starter ES6
-===
-Lesson 1. Basic Babel Setup
----
-
 ```bash
 $ yarn init
-$ yarn add @babel/core
-$ yarn add @babel/cli
-$ yarn add @babel/preset-env
-```
-
-Add to package.json:
-```json
-...
-  "scripts": {
-    "dev": "babel ./main.js -o ./bundle.js -w"
-  }
-...
-```
-
-Executing
-```bash
-$ yarn dev
+$ yarn add @babel/core -D
+$ yarn add @babel/cli -D
+$ yarn add @babel/preset-env -D
+$ yarn add webpack webpack-cli babel-loader -D
 ```
