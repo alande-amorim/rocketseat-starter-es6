@@ -1,4 +1,6 @@
-import { soma } from './funcoes';
+import soma, * as funcoes from './funcoes';
 
-alert(soma(1,2));
+console.log(soma(1,2));
+console.log(funcoes.sub(5,3));
+console.log(funcoes.mult(4,3));
 
